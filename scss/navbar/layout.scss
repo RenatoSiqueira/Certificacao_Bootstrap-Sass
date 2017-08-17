@@ -1,0 +1,30 @@
+// -----------------------------------\
+//      BLOCK
+// -----------------------------------/
+@mixin border-color-background($border,$color,$bg){
+    border: $border solid $color;
+    
+    background-color: $bg;    
+}
+
+.navbar{
+    padding: 0;
+    height: $navbar-height;
+ 
+    @if($tema==1){@include border-color-background(2px,#622569,#fff);}
+    @if($tema==2){@include border-color-background(0,transparent,rgb(78, 93, 108));}
+    @if($tema==3){@include border-color-background(1px,#000,rgb(0, 43, 48));}        
+
+    z-index: 9999;
+}
+
+.navbar-menu{
+    display: inline;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    right: 1rem;
+    top: 0;
+
+    list-style: none;   
+}

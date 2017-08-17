@@ -1,0 +1,41 @@
+// -----------------------------------\
+//      ELEMENTS
+// -----------------------------------/
+.navbar-icone__brand{
+    margin: 0  1rem;    
+    display: inline-block;
+    position: fixed;
+    left: 10px;
+    top: 6px;
+
+    color: $brand-color;
+    font-size: 2em;
+}
+
+// -----------------------------------\
+//  PLACEHOLDER - PADRAO
+//  Define o comportamento dos itens do Menu
+// -----------------------------------/
+%navbar-menu__padrao{
+    padding: 1rem 1.2rem;
+    display: inline-block;
+
+    color: $menu-link__color;
+    font-weight: bold;
+    text-decoration-line: none;    
+}
+
+// -----------------------------------\
+//  PLACEHOLDER - HOVER E FOCUS
+//  Define as cores do Texto e Bg
+// -----------------------------------/
+%hover__fonte-background{
+    color: $menu-link-hover__text-color;
+    background-color: $menu-link__hover-background-color;
+}
+
+.navbar-menu__link-home, .navbar-menu__link-about, .navbar-menu__link-contact{
+    @extend %navbar-menu__padrao;
+    &:hover{@extend %hover__fonte-background;}
+    &:focus{@extend %hover__fonte-background;}
+}
