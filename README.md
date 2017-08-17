@@ -11,10 +11,9 @@ Atividade Prática nº 2 do curso de [Certificação Bootstrap](http://www.certi
 4. Cada item do menu deve conter um Hover alterando o fundo e a cor do texto
 
 ### Considerações: ###
-
-- Os elementos do Navbar estão separados conforme metodologia BEM, em seus respectivos arquivos dentro da pasta do componente.
-- Existem 3 temas neste projeto, que podem ser acionadas no arquivo style.scss descomentando-se o @import referente.
-- Foi adicionado o plugin de live-reload (gulp) para facilitar o acompanhamento do processo de desenvolvimento.
+1. Os elementos do Navbar estão separados conforme metodologia BEM, em seus respectivos arquivos dentro da pasta do componente.
+2. Existem 3 temas neste projeto, que podem ser acionadas no arquivo style.scss descomentando-se o @import referente.
+3. Foi adicionado o plugin de live-reload (gulp) para facilitar o acompanhamento do processo de desenvolvimento.
 
 
 - ### Iniciando ###
