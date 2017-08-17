@@ -27,6 +27,8 @@ Atividade Prática nº 2 do curso de [Certificação Bootstrap](http://www.certi
     - **Inicie o Watch:**
         - ```$ gulp```
 
+    - **Acesse no seu navegador:**
+        - ```localhost:8181```
 
 - ### Pré-Requisitos ###
     - [NodeJs](https://nodejs.org/en/download/)
